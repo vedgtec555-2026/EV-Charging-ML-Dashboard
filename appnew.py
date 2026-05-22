@@ -2,7 +2,8 @@
 # SMART EV CHARGING PREDICTION SYSTEM (STREAMLIT)
 # FINAL DEPLOYMENT VERSION
 # ============================================================
-
+import sklearn
+print(sklearn.__version__)
 import streamlit as st
 import pandas as pd
 import numpy as np
